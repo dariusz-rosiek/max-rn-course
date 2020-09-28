@@ -24,7 +24,6 @@ const fetchFonts = () => {
 };
 
 export default function App() {
-  
   const [fontLoaded, setFontLoaded] = useState(false);
 
   if (!fontLoaded) {
